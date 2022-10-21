@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    background-color: rgba(0, 0, 0, 0.767);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    min-height: 70vh;
+    background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?cs=srgb&dl=pexels-pixabay-40568.jpg&fm=jpg) !important;
+    background-size: cover;
+    display: flex!important;
+    justify-content: space-evenly!important;
+    flex-direction: column!important;
+    align-items: center!important;
+}
+
+h1{
+    color: rgba(255, 255, 255, 0.973) !important;
+    text-shadow: 2px 2px #3a3a3a !important;
+    font-size: 5rem !important;
+}
+span{
+    color: rgba(65, 102, 182, 0.856);
+    font-size: 9rem;
+}
+
+h2{
+    color: rgb(216, 216, 216);
+    text-shadow: 2px 2px #3a3a3a;
+}
+
+.contenedor-de-cartas{
+    display: flex;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: rgba(255, 255, 255, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
